@@ -1,0 +1,21 @@
+{application, perc_vs_jiffy,
+ [{description, "Benchmark perc vs. jiffy for json encoding"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    getopt,
+    jiffy,
+    perc
+   ]},
+  {env,[]},
+  {modules,
+   [
+    perc_vs_jiffy
+   ]},
+
+  {maintainers, []},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
